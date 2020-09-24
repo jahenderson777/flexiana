@@ -5,7 +5,7 @@
   "takes two strings. Returns true if 'find-s' can be made from the characters in 's'.
    e.g.
    (scramble \"abbc\" \"abc\") => true
-   (scramble \"abc\" \"abbbbbc\") => nil"
+   (scramble \"abc\" \"abbbbbc\") => false"
   [s find-s]
   (cond
     (empty? find-s) true
