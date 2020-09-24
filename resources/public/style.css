@@ -1,0 +1,10 @@
+div#content {
+    margin: auto;
+    text-align: center;
+}
+
+button {
+    font-size: 30px;
+    padding: 30px 60px;
+    margin-top: 40px;
+}
