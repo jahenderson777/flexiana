@@ -3,5 +3,8 @@
  {:app {:asset-path "/js"
         :modules {:main {:init-fn flexiana.core/init}}
         :output-dir "resources/public/js"
+        :devtools {:http-root "resources/public"
+                   :http-port 3000
+                   :http-handler flexiana.core/handler}
         :target :browser}}
  :nrepl {:port 8777}}

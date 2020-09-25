@@ -33,9 +33,11 @@ Run the project's tests:
 
 ## Dev REPL instructions
 
-From VS Code with Calva, run Jack-in, select `shadow-cljs`, select :app profile, wait, select :app build, wait for build to complete, open `core.clj`, run `Calva: Load current file and dependencies`, wait for file to load and repl prompt to change, eval `(-main)` in the repl.
+From VS Code with Calva, run Jack-in, select `shadow-cljs`, select :app profile, wait, select :app build, wait for build to complete ~~, open `core.clj`, run `Calva: Load current file and dependencies`, wait for file to load and repl prompt to change, eval `(-main)` in the repl.~~
 
 Browse to http://localhost:3000/index.html
+
+
 
 ## System Notes
 
